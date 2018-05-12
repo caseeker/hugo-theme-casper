@@ -576,8 +576,12 @@ body.nav-opened .site-wrapper {
     overflow: hidden;
 }
 
+.main-header-content {
+    max-width: 1000px;
+}
+
 .main-header .inner {
-    width: 80%;
+    width: 100%;
 }
 
 .main-header a.bloglogo {
@@ -943,8 +947,8 @@ body.nav-opened .menu-button .word {
 
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
-    margin: 10px 0 10px 0;
-    font-size: 5rem;
+    margin: 10px 0 110px 0;
+    font-size: 10rem;
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
