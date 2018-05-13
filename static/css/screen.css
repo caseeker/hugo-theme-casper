@@ -2138,6 +2138,9 @@ body:not(.post-template) .post-title {
   }
 }
 
+.follow {
+    float: right;
+}
 
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
