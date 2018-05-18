@@ -588,6 +588,7 @@ body.nav-opened .site-wrapper {
     text-decoration: none;
 }
 
+
 .main-header a.bloglogo .icon-linkedin,
 .main-header a.bloglogo .icon-codepen,
 .main-header a.bloglogo .icon-github,
@@ -599,6 +600,7 @@ body.nav-opened .site-wrapper {
     color: white;
     font-size: 2em;
 }
+
 
 .main-nav {
     position: relative;
@@ -937,6 +939,10 @@ body.nav-opened .menu-button .word {
     color: #222;
     border-color: #fff;
     background: #fff;
+}
+
+.main-nav.overlay a.bloglogo:hover {
+    background: 0 0!important
 }
 
 /* Add a border to the buttons on hover */
